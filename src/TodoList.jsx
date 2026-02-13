@@ -67,7 +67,7 @@ function TodoList() {
   });
   return (
     <div className="container">
-      <h1>📝 투들;ㅅ,ㅌ,</h1>
+      <h1>📝 투두리스트</h1>
 
       {/* [추가] 필터 버튼: 질문자님의 input-box 바로 위에 배치 */}
       <div
