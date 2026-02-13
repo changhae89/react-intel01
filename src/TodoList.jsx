@@ -102,7 +102,7 @@ function TodoList() {
         <button onClick={addTodo}>추가</button>
       </div>
 
-      <ul className="todo-lis">
+      <ul className="todo-list">
         {/* 2. 원본 todos 대신 필터링된 filteredTodos를 뿌려줍니다. */}
         {filteredTodos.map((todo) => (
           <TodoItem
