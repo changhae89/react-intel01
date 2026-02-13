@@ -1,0 +1,25 @@
+.student-list-container {
+  padding: 20px;
+}
+
+.student-grid {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.student-card {
+  background-color: #f0f7ff;
+  border-radius: 12px;
+  padding: 20px;
+  width: 150px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.student-card p {
+  margin: 0;
+  font-weight: bold;
+  color: #333;
+}
