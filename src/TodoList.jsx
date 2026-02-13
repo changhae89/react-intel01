@@ -67,7 +67,7 @@ function TodoList() {
   });
   return (
     <div className="container">
-      <h1>📝 Todo List</h1>
+      <h1>📝 투들;ㅅ,ㅌ,</h1>
 
       {/* [추가] 필터 버튼: 질문자님의 input-box 바로 위에 배치 */}
       <div
@@ -102,7 +102,7 @@ function TodoList() {
         <button onClick={addTodo}>추가</button>
       </div>
 
-      <ul className="todo-list">
+      <ul className="todo-lis">
         {/* 2. 원본 todos 대신 필터링된 filteredTodos를 뿌려줍니다. */}
         {filteredTodos.map((todo) => (
           <TodoItem
